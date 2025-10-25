@@ -734,7 +734,7 @@ GameObject:
   - component: {fileID: 1644185251}
   - component: {fileID: 1644185250}
   - component: {fileID: 1644185252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: DoorUI
   m_Icon: {fileID: 0}
@@ -839,7 +839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1788159002}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -855,8 +855,8 @@ Transform:
   m_GameObject: {fileID: 1788159001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.1265182, y: 6.8120017, z: 43.4957}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -5.26, y: 7.62, z: 44.93}
+  m_LocalScale: {x: 1.3662, y: 3.1608121, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1644185248}

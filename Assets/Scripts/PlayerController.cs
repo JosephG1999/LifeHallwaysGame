@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
@@ -48,8 +49,12 @@ public class PlayerController : MonoBehaviour
 
         if (Physics.Raycast(camRay, out RaycastHit hit, maxClickDistance))
         {
-            Debug.Log("RAYCAST HIT!");
-            if (hit.transform.CompareTag("DoorUI")) Debug.Log("DOOR HIT!");
+            //Debug.Log("RAYCAST SHOOT!");
+            if (hit.transform.CompareTag("DoorUI"))
+            {
+                Debug.Log("DOOR HIT!");
+                SceneManager.LoadScene("Hallway2");
+            }
         }
     }
 
