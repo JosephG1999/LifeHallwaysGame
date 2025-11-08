@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     public bool canMove = true;
 
-    [SerializeField] float maxClickDistance; // 10,000 seems good?
+    [SerializeField] float maxClickDistance; // 10,000 is good for testing purposes
     [SerializeField] string moveForward, moveBackward, moveLeft, moveRight;
 
 
